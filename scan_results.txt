@@ -10,10 +10,10 @@ PORT     STATE SERVICE           DESCRIPTION
 13 /tcp  open  msrpc             Microsoft RPC
 13 /tcp  open  netbios-ssn       Windows File Sharing (NetBIOS)
 445/tcp  open  microsoft-ds      SMB (Windows File Sharing)
-8000/tcp open  http-alt          Alternate HTTP server
-8089/tcp open  unknown           Possibly a custom or uncommon service
-8090/tcp open  opsmessaging      Operational Messaging (sometimes web apps use it)
-8888/tcp open  sun-answerbook    Often used for web apps, dashboards, or dev tools
+800/tcp open  http-alt          Alternate HTTP server
+889/tcp open  unknown           Possibly a custom or uncommon service
+800/tcp open  opsmessaging      Operational Messaging (sometimes web apps use it)
+888/tcp open  sun-answerbook    Often used for web apps, dashboards, or dev tools
 
 # Nmap done at Mon Jun 23 12:48:04 2025 -- 1 IP address (1 host up) scanned in 1.09 seconds
 
